@@ -19,20 +19,20 @@ def test2(x):
     30
     """
 
-    def juego():
-        juego1 = score()
-        juego1.sumarpto()
-        juego1.sumarpto()
-        juego1.sumarpto()
-        self.assertNotEqual("40", juego1.getvalor())
-        print ("ho")
+
+def juego():
+    juego1 = score()
+    juego1.sumarpto()
+    juego1.sumarpto()
+    juego1.sumarpto()
+    print ("ho")
 
 
 class score(object):
     scores = [0, 15, 30, 40]
 
     def __init__(self):
-        self.valor = valor
+        self.valor = 0
 
     def getvalor(self):
         return self.scores[self.valor]
